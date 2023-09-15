@@ -1,0 +1,184 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    color: blue;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: papayawhip;
+    padding: 18px 100px;
+    height: 10%;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+}
+
+.navbar a{
+    color: purple;
+    padding: 9px 17px;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+
+.navbar a:hover{
+    background: pink;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0,5 all linear;
+}
+
+section{
+    padding: 50px 100px;
+}
+
+.Home{
+    width: 100%;
+    min-width: 100vh;
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+}
+
+.hometext h1{
+    color: purple;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.hometext p{
+    color: white;
+    margin: 20px 0 1.4px;
+    margin-bottom: 5%;
+}
+
+.btn{
+    padding: 10px 40px;
+    border-radius: 30px;
+    background: purple;
+    color: white;
+}
+
+.btn:hover{
+    background: pink;
+}
+
+.homeimg{
+    margin-top: 20%;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    align-items: center;
+    gap: 1,5rem;
+}
+
+.aboutimg img{
+    border-radius: 20%;
+}
+
+.abouttext h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.abouttext p{
+    font-size: 16px;
+    margin: 30px;
+}
+
+.menugrup{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.menugrup .namamenu{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: purple;
+    flex-direction: column;
+}
+
+.namamenu h2 p a{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.namamenu img{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    background: yellow;
+    border-radius: 10px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.kotaktestimoni{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimoni{
+    background-color: pink;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.testimoni img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimoni p{
+    font-size: 16px;
+    line-height: 1,5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: yellow;
+    color: black;
+    padding: 20px auto;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+
+}
+
